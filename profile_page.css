@@ -1,0 +1,320 @@
+
+body
+{
+    font-family: 'Lato', 'sans-serif';
+
+}
+#bg{
+    background-color: black;
+    color : white;
+}
+img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+
+table {
+      border-collapse: separate;
+      border-spacing: 100px 0;
+    }
+
+td
+{
+    padding:0 30px;
+}
+.edit {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #1e90ff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-left: 40px;
+  margin-right: 18px;
+  width :auto;
+}
+
+.edit:hover {background-color: #70a1ff}
+
+.edit:active {
+  background-color: #3742fa;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.ex1{
+  margin-left: 10px;
+}
+.card {
+  box-shadow: 0 40px 40px 0 #747d8c;
+  transition: 0.3s;
+  width: 40%;
+  border-radius: 5px;
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px;
+  color: black;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 #a4b0be;
+}
+  .figure {
+    border: 1px #cccccc solid;
+    padding: 4px;
+    margin: auto;
+  }
+  .alignleft {
+  float: left;
+}
+
+.alignright {
+  float: right;
+}
+.aligncentre {
+  float: center;
+}
+
+  .figcaption {
+    background-color: black;
+    color: white;
+    font-style: arial;
+    padding: 2px;
+    text-align: center;
+  }
+  .btn {
+  background-color: DodgerBlue;
+  border: none;
+  display : inline-block; /* Blue background */
+  border-radius: 12px;
+  text-align :center;
+  text-decoration :none;/* Remove borders */
+  color: white; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+.profile
+{
+    min-height: 355px;
+    display: inline-block;
+    }
+.divider
+{
+    border-top:1px solid rgba(0,0,0,0.1);
+    }
+.emphasis
+{
+    border-top: 4px solid transparent;
+    }
+.emphasis:hover
+{
+    border-top: 4px solid #1abc9c;
+    }
+.emphasis h2
+{
+    margin-bottom:0;
+    }
+span.tags
+{
+    background:#9980FA;
+    border-radius: 2px;
+    color: #f5f5f5;
+    font-weight: bold;
+    padding: 2px 4px;
+    }
+.dropdown-menu
+{
+    background-color:#9980FA;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    width: 250px;
+    margin-left: -125px;
+    left: 50%;
+    }
+.dropdown-menu .divider
+{
+    background:none;
+    }
+.dropdown-menu>li>a
+{
+    color:#f5f5f5;
+    }
+.dropup .dropdown-menu
+{
+    margin-bottom:10px;
+    }
+.dropup .dropdown-menu:before
+{
+    content: "";
+    border-top: 10px solid #34495e;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    margin-left: -10px;
+    z-index: 10;
+    }
+    .ex1{
+      margin-left: 8px;
+      margin-top: 20px;
+    }
+    .card {
+      box-shadow: 0 40px 40px 0 #747d8c;
+      transition: 2s;
+      width: 60%;
+      border-radius: 20px;
+      margin: 0 auto; /* Added */
+      float: none; /* Added */
+      margin-bottom: 10px;
+      color: black;
+      padding: 12px 15px;
+      height:50%
+    }
+    .card h4{
+      font-size: 15px;
+    }
+    .card:hover {
+      box-shadow: 0 8px 16px 0 #a4b0be;
+    }
+    .card img{
+      margin-bottom: 10px;
+    }
+      .figure {
+        border: 1px #cccccc solid;
+        padding: 4px;
+        margin: auto;
+      }
+      .alignleft {
+      float: left;
+    }
+
+    .alignright {
+      float: right;
+    }
+    .aligncentre {
+      float: center;
+    }
+
+      .figcaption {
+        background-color: black;
+        color: white;
+        font-style: arial;
+        padding: 2px;
+        text-align: center;
+      }
+      .btn {
+      background-color: DodgerBlue;
+      border: none;
+      display : inline-block; /* Blue background */
+      border-radius: 12px;
+      text-align :center;
+      text-decoration :none;/* Remove borders */
+      color: white; /* White text */
+      padding: 12px 16px; /* Some padding */
+      font-size: 16px; /* Set a font size */
+      cursor: pointer; /* Mouse pointer on hover */
+    }
+
+    /* Darker background on mouse-over */
+    .btn:hover {
+      background-color: RoyalBlue;
+    }
+    .profile
+    {
+        min-height: 355px;
+        display: inline-block;
+        }
+    .divider
+    {
+        border-top:1px solid rgba(0,0,0,0.1);
+        }
+    .emphasis
+    {
+        border-top: 4px solid transparent;
+        }
+    .emphasis:hover
+    {
+        border-top: 4px solid #1abc9c;
+        }
+    .emphasis h2
+    {
+        margin-bottom:0;
+        }
+    span.tags
+    {
+        background:#9980FA;
+        border-radius: 2px;
+        color: #f5f5f5;
+        font-weight: bold;
+        padding: 2px 4px;
+        }
+    .dropdown-menu
+    {
+        background-color:#9980FA;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        width: 250px;
+        margin-left: -125px;
+        left: 50%;
+        }
+    .dropdown-menu .divider
+    {
+        background:none;
+        }
+    .dropdown-menu>li>a
+    {
+        color:#f5f5f5;
+        }
+    .dropup .dropdown-menu
+    {
+        margin-bottom:10px;
+        }
+    .dropup .dropdown-menu:before
+    {
+        content: "";
+        border-top: 10px solid #34495e;
+        border-right: 10px solid transparent;
+        border-left: 10px solid transparent;
+        position: absolute;
+        bottom: -10px;
+        left: 50%;
+        margin-left: -10px;
+        z-index: 10;
+      }
+      .column {
+      float : left;
+    flex: 25%;
+    padding: 30px;
+    height: 95px;
+    font-family: 'Lato', 'sans-serif';/* Should be removed. Only for demonstration */
+  }
+      .left {
+  width: 25%;
+}
+
+     .right {
+  width: 25%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+    /* Clear floats after image containers */
